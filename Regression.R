@@ -91,7 +91,7 @@ plot(g.lm)
 
 # prediction with the model chosen by AIC&BIC
 pred.lm = predict(g.lm, newdata = test.reg)
-rmse(test.reg$price, pred.lm) # 0.3084, dosen't increase too much
+rmse(test.reg$price, pred.lm) # 0.3084, dosen't increase too muc
 
 
 
